@@ -34,6 +34,7 @@ namespace Stock.Controllers
             }
 
             var produccion = await _context.Produccion
+                .Include(m=>m.EquiposFinalizados)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (produccion == null)
             {
@@ -56,6 +57,7 @@ namespace Stock.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Fecha,OrdenProduccion,Equipo,Cantidad")] Produccion produccion)
         {
+            ModelState.Remove("EquiposFinalizados");
             if (ModelState.IsValid)
             {
                 _context.Add(produccion);

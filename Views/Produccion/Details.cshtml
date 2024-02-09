@@ -10,28 +10,28 @@
     <h4>Produccion</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Fecha)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Fecha)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.OrdenProduccion)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.OrdenProduccion)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Equipo)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Equipo)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Cantidad)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Cantidad)
         </dd>
     </dl>
@@ -40,29 +40,32 @@
 <div>
     <h3>Productos terminados</h3>
 </div>
-
 <div>
-     @foreach(var item in Model.EquiposFinalizados)
-    {
-        <dt class = "col-sm-2">
-            @item.Fecha;
-        </dt>
-        <dt class = "col-sm-2">
-            @item.Desde;
-        </dt>
-        <dt class = "col-sm-2">
-            @item.Hasta;
-        </dt>
-        <dt class = "col-sm-2">
-            @item.Cantidad;
-        </dt>
-        <dt class = "col-sm-2">
-            @item.Restante;
-        </dt>
-        
-    }
-    
-</div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col"> Fecha </th>
+                    <th scope="col">Desde</th>
+                    <th scope="col">Hasta</th>
+                    <th scope="col">Cantidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.EquiposFinalizados)
+                {
+                    <tr>
+                        <th scope="row"> @item.Fecha </th>
+                        <td>@item.Desde</td>
+                        <td>@item.Hasta</td>
+                        <td>@item.Cantidad</td>
+                    </tr>
+                }
+
+                
+            </tbody>
+        </table>
+    </div>
+
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>

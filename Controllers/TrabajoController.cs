@@ -36,6 +36,7 @@ namespace Stock.Controllers
 
             var trabajo = await _context.Trabajo
                 .Include(t => t.OrdenProduccion)
+                .Include(t => t.Entregas)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (trabajo == null)
             {
@@ -60,6 +61,7 @@ namespace Stock.Controllers
         public async Task<IActionResult> Create([Bind("Id,Fecha,Equipo,Cantidad,OrdenProduccionId,OrdenTrabajo")] Trabajo trabajo)
         {
             ModelState.Remove("OrdenProduccion");
+            ModelState.Remove("Entregas");
             if (ModelState.IsValid)
             {
                 _context.Add(trabajo);

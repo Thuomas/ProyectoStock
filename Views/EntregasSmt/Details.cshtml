@@ -39,6 +39,21 @@
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.CantidadRestante)
+            @*@Html.DisplayFor(model => model.OrdenTrabajoId.Fecha)
+            @Html.DisplayFor(model => model.OrdenTrabajoId.OrdenTrabajo)
+            @Html.DisplayFor(model => model.OrdenTrabajoId.Equipo) *@
+        </dd>
+            <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.OrdenTrabajo.Fecha)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.OrdenTrabajo.Fecha)
+        </dd>
+            <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.OrdenTrabajo.OrdenTrabajo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.OrdenTrabajo.OrdenTrabajo)
         </dd>
     </dl>
 </div>

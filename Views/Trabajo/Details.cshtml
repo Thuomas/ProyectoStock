@@ -10,31 +10,61 @@
     <h4>Trabajo</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Fecha)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Fecha)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Equipo)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Equipo)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Cantidad)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Cantidad)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.OrdenProduccion)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.OrdenProduccion.OrdenProduccion)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Entregas)
+        </dt>
     </dl>
+
+    <div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col"> Fecha </th>
+                    <th scope="col">Remito</th>
+                    <th scope="col">Cantidad</th>
+                    <th scope="col">Cantidad Restante</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Entregas)
+                {
+                    <tr>
+                        <th scope="row"> @item.Fecha </th>
+                        <td>@item.Remito</td>
+                        <td>@item.Cantidad</td>
+                        <td>@item.CantidadRestante</td>
+                    </tr>
+                }
+
+                
+            </tbody>
+        </table>
+    </div>
+
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |

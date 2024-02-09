@@ -23,6 +23,7 @@ public class Trabajo
 
     public virtual Produccion OrdenProduccion { get; set; }
 
-    public virtual List<EntregasSmt> Entregas { get; set; }
+    public  List<EntregasSmt> Entregas { get; set; } 
 
+   
 }

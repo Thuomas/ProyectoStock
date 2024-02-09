@@ -43,7 +43,7 @@ namespace Stock.Migrations
 
                     b.HasIndex("OrdenTrabajoId");
 
-                    b.ToTable("EntregasSmt");
+                    b.ToTable("EntregasSmt", (string)null);
                 });
 
             modelBuilder.Entity("Stock.Models.EquiposFinalizados", b =>
@@ -76,7 +76,7 @@ namespace Stock.Migrations
 
                     b.HasIndex("OrdenProduccionId");
 
-                    b.ToTable("EquiposFinalizados");
+                    b.ToTable("EquiposFinalizados", (string)null);
                 });
 
             modelBuilder.Entity("Stock.Models.Produccion", b =>
@@ -100,7 +100,7 @@ namespace Stock.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Produccion");
+                    b.ToTable("Produccion", (string)null);
                 });
 
             modelBuilder.Entity("Stock.Models.Trabajo", b =>
@@ -129,7 +129,7 @@ namespace Stock.Migrations
 
                     b.HasIndex("OrdenProduccionId");
 
-                    b.ToTable("Trabajo");
+                    b.ToTable("Trabajo", (string)null);
                 });
 
             modelBuilder.Entity("Stock.Models.EntregasSmt", b =>

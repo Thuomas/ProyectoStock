@@ -48,7 +48,7 @@ namespace Stock.Controllers
         // GET: EquiposFinalizados/Create
         public IActionResult Create()
         {
-            ViewData["OrdenProduccionId"] = new SelectList(_context.Produccion, "Id", "Id");
+            ViewData["OrdenProduccionId"] = new SelectList(_context.Produccion, "Id", "OrdenProduccion","Id");
             return View();
         }
 
@@ -66,13 +66,14 @@ namespace Stock.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["OrdenProduccionId"] = new SelectList(_context.Produccion, "Id", "Id", equiposFinalizados.OrdenProduccionId);
+            ViewData["OrdenProduccionId"] = new SelectList(_context.Produccion, "Id","OrdenProduccion", "Id");
             return View(equiposFinalizados);
         }
 
         // GET: EquiposFinalizados/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            
             if (id == null)
             {
                 return NotFound();
@@ -83,7 +84,7 @@ namespace Stock.Controllers
             {
                 return NotFound();
             }
-            ViewData["OrdenProduccionId"] = new SelectList(_context.Produccion, "Id", "Id", equiposFinalizados.OrdenProduccionId);
+            ViewData["OrdenProduccionId"] = new SelectList(_context.Produccion, "Id","OrdenProduccion", "Id");
             return View(equiposFinalizados);
         }
 
@@ -98,7 +99,7 @@ namespace Stock.Controllers
             {
                 return NotFound();
             }
-
+                ModelState.Remove("OrdenProduccionId");
             if (ModelState.IsValid)
             {
                 try
@@ -119,7 +120,7 @@ namespace Stock.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["OrdenProduccionId"] = new SelectList(_context.Produccion, "Id", "Id", equiposFinalizados.OrdenProduccionId);
+            ViewData["OrdenProduccionId"] = new SelectList(_context.Produccion, "Id", "OrdenProduccion", "Id");
             return View(equiposFinalizados);
         }
 

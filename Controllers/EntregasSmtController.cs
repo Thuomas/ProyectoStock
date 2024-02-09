@@ -48,7 +48,7 @@ namespace Stock.Controllers
         // GET: EntregasSmt/Create
         public IActionResult Create()
         {
-            ViewData["OrdenTrabajoId"] = new SelectList(_context.Trabajo, "Id", "Id");
+            ViewData["OrdenTrabajoId"] = new SelectList(_context.Trabajo, "Id", "OrdenTrabajo", "Id");
             return View();
         }
 
@@ -66,7 +66,7 @@ namespace Stock.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["OrdenTrabajoId"] = new SelectList(_context.Trabajo, "Id", "Id", entregasSmt.OrdenTrabajoId);
+            ViewData["OrdenTrabajoId"] = new SelectList(_context.Trabajo, "Id", "OrdenTrabajoId", "Id");
             return View(entregasSmt);
         }
 
@@ -83,7 +83,7 @@ namespace Stock.Controllers
             {
                 return NotFound();
             }
-            ViewData["OrdenTrabajoId"] = new SelectList(_context.Trabajo, "Id", "Id", entregasSmt.OrdenTrabajoId);
+            ViewData["OrdenTrabajoId"] = new SelectList(_context.Trabajo, "Id", "OrdenTrabajo", "Id");
             return View(entregasSmt);
         }
 
@@ -98,7 +98,7 @@ namespace Stock.Controllers
             {
                 return NotFound();
             }
-
+            ModelState.Remove("OrdenTrabajo");
             if (ModelState.IsValid)
             {
                 try

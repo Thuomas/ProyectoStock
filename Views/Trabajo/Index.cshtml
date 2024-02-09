@@ -27,6 +27,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.OrdenProduccion)
             </th>
+            @* <th>
+                @Html.DisplayNameFor(model => model.)
+            </th> *@
             <th></th>
         </tr>
     </thead>
@@ -49,7 +52,6 @@
                 @Html.DisplayFor(modelItem => item.OrdenProduccion.OrdenProduccion)
             </td>
             <td>
-                 <a class="nav-link text-dark" asp-area="" asp-controller="EntregasSmt" asp-action="Index" asp-route-id="@item.Id">Entregas Smt</a>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>

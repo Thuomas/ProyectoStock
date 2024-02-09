@@ -18,5 +18,5 @@ public class Produccion
 
     public int Cantidad { get; set; }
     
-    public virtual List<EquiposFinalizados> EquiposFinalizados { get; set; }
+    public  List<EquiposFinalizados> EquiposFinalizados { get; set; }
 }
