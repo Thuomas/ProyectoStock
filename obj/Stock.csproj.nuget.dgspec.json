@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dydsoftware\\Documents\\Stock\\Stock.csproj": {}
+    "C:\\Users\\Administrador\\OneDrive\\Documentos\\Gaston\\ProyectoStock\\Stock.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dydsoftware\\Documents\\Stock\\Stock.csproj": {
+    "C:\\Users\\Administrador\\OneDrive\\Documentos\\Gaston\\ProyectoStock\\Stock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dydsoftware\\Documents\\Stock\\Stock.csproj",
+        "projectUniqueName": "C:\\Users\\Administrador\\OneDrive\\Documentos\\Gaston\\ProyectoStock\\Stock.csproj",
         "projectName": "Stock",
-        "projectPath": "C:\\Users\\dydsoftware\\Documents\\Stock\\Stock.csproj",
-        "packagesPath": "C:\\Users\\dydsoftware\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dydsoftware\\Documents\\Stock\\obj\\",
+        "projectPath": "C:\\Users\\Administrador\\OneDrive\\Documentos\\Gaston\\ProyectoStock\\Stock.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\OneDrive\\Documentos\\Gaston\\ProyectoStock\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dydsoftware\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -78,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
