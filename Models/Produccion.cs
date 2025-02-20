@@ -13,8 +13,8 @@ public class Produccion
     [Display(Name="O/P")]
     public string OrdenProduccion { get; set; }
 
-     [Display(Name="Equipo")]
-     public Equipos Equipo {get; set;}
+    [Display(Name="Equipo")]
+    public Equipos Equipo {get; set;}
 
     public int Cantidad { get; set; }
     
