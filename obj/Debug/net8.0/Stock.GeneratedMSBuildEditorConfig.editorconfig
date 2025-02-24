@@ -17,141 +17,139 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Stock
 build_property.RootNamespace = Stock
-build_property.ProjectDir = D:\ProyectoStock\
+build_property.ProjectDir = C:\Users\Administrador\OneDrive\Documentos\Gaston\ProyectoStock\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\ProyectoStock
+build_property.MSBuildProjectDirectory = C:\Users\Administrador\OneDrive\Documentos\Gaston\ProyectoStock
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[D:/ProyectoStock/Views/EntregasSmt/Create.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/EntregasSmt/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmVnYXNTbXRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/EntregasSmt/Delete.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/EntregasSmt/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmVnYXNTbXRcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/EntregasSmt/Details.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/EntregasSmt/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmVnYXNTbXRcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/EntregasSmt/Edit.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/EntregasSmt/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmVnYXNTbXRcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/EntregasSmt/Index.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/EntregasSmt/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmVnYXNTbXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/EquiposFinalizados/Create.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/EquiposFinalizados/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBvc0ZpbmFsaXphZG9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/EquiposFinalizados/Delete.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/EquiposFinalizados/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBvc0ZpbmFsaXphZG9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/EquiposFinalizados/Details.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/EquiposFinalizados/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBvc0ZpbmFsaXphZG9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/EquiposFinalizados/Edit.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/EquiposFinalizados/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBvc0ZpbmFsaXphZG9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/EquiposFinalizados/Index.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/EquiposFinalizados/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBvc0ZpbmFsaXphZG9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/Home/Index.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/Home/Privacy.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/Observacion/Create.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/Observacion/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JzZXJ2YWNpb25cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/Observacion/Delete.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/Observacion/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JzZXJ2YWNpb25cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/Observacion/Details.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/Observacion/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JzZXJ2YWNpb25cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/Observacion/Edit.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/Observacion/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JzZXJ2YWNpb25cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/Observacion/Index.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/Observacion/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JzZXJ2YWNpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/Produccion/Create.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/Produccion/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjY2lvblxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/Produccion/Delete.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/Produccion/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjY2lvblxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/Produccion/Details.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/Produccion/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjY2lvblxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/Produccion/Edit.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/Produccion/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjY2lvblxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/Produccion/Index.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/Produccion/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjY2lvblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/Shared/Error.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/Trabajo/Create.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/Trabajo/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhYmFqb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/Trabajo/Delete.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/Trabajo/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhYmFqb1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/Trabajo/Details.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/Trabajo/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhYmFqb1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/Trabajo/Edit.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/Trabajo/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhYmFqb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/Trabajo/Index.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/Trabajo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhYmFqb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/_ViewImports.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/_ViewStart.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProyectoStock/Views/Shared/_Layout.cshtml]
+[C:/Users/Administrador/OneDrive/Documentos/Gaston/ProyectoStock/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-msk9pet0hh

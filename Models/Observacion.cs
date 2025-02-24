@@ -7,23 +7,27 @@ public class Observacion
 {
     public int Id { get; set; }
 
-    public int firmwareVersion { get; set; }
+    public Equipos Equipo { get; set; }
 
-    public string grabador {set; get;}
+    [Display(Name = "Version de firmware")]
+    public int FirmwareVersion { get; set; }
+    
+    public string Grabador { set; get; }
 
-    public string numSerieGrabador { get; set; }
+    [Display(Name = "N° Serie Grabador")]
+    public string NumSerieGrabador { get; set; }
     
     [Display(Name = "V(mm)/Amp")]
-    public double amp { get; set; }
+    public double Amp { get; set; }
 
-    public int bpm { get; set; }
+    public int Bpm { get; set; }
 
     public string Simulador  { get; set; }
 
+    [Display(Name = "N° Serie Simulador")]
     public int NumSerieSimulador { get; set; }
 
+    [Display(Name = "Software de analisis")]
     public int SoftAnalisis { get; set; }
-
-    public int Cantidad { get; set; }
 
 }

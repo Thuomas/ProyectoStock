@@ -13,19 +13,22 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.firmwareVersion)
+                @Html.DisplayNameFor(model => model.Equipo)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.grabador)
+                @Html.DisplayNameFor(model => model.FirmwareVersion)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.numSerieGrabador)
+                @Html.DisplayNameFor(model => model.Grabador)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.amp)
+                @Html.DisplayNameFor(model => model.NumSerieGrabador)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.bpm)
+                @Html.DisplayNameFor(model => model.Amp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bpm)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Simulador)
@@ -36,9 +39,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.SoftAnalisis)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Cantidad)
-            </th>
+            
             <th></th>
         </tr>
     </thead>
@@ -46,19 +47,22 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.firmwareVersion)
+                @Html.DisplayFor(modelItem => item.Equipo)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.grabador)
+                @Html.DisplayFor(modelItem => item.FirmwareVersion)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.numSerieGrabador)
+                @Html.DisplayFor(modelItem => item.Grabador)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.amp)
+                @Html.DisplayFor(modelItem => item.NumSerieGrabador)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.bpm)
+                @Html.DisplayFor(modelItem => item.Amp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bpm)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Simulador)
@@ -68,9 +72,6 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.SoftAnalisis)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cantidad)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

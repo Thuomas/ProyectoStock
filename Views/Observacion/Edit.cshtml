@@ -14,29 +14,40 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
-                <label asp-for="firmwareVersion" class="control-label"></label>
-                <input asp-for="firmwareVersion" class="form-control" />
-                <span asp-validation-for="firmwareVersion" class="text-danger"></span>
+                <label asp-for="Equipo" class="control-label"></label>
+                @* <input asp-for="Equipo" class="form-control" /> *@
+                <select class="form-control" id="Equipo" name="Equipo">
+                    @foreach (var equipo in Enum.GetValues(typeof(Stock.Utils.Equipos)))
+                    {
+                        <option value="@equipo">@equipo.ToString()</option>
+                    }
+                </select>
+                <span asp-validation-for="Equipo" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="grabador" class="control-label"></label>
-                <input asp-for="grabador" class="form-control" />
-                <span asp-validation-for="grabador" class="text-danger"></span>
+                <label asp-for="FirmwareVersion" class="control-label"></label>
+                <input asp-for="FirmwareVersion" class="form-control" />
+                <span asp-validation-for="FirmwareVersion" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="numSerieGrabador" class="control-label"></label>
-                <input asp-for="numSerieGrabador" class="form-control" />
-                <span asp-validation-for="numSerieGrabador" class="text-danger"></span>
+                <label asp-for="Grabador" class="control-label"></label>
+                <input asp-for="Grabador" class="form-control" />
+                <span asp-validation-for="Grabador" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="amp" class="control-label"></label>
-                <input asp-for="amp" class="form-control" />
-                <span asp-validation-for="amp" class="text-danger"></span>
+                <label asp-for="NumSerieGrabador" class="control-label"></label>
+                <input asp-for="NumSerieGrabador" class="form-control" />
+                <span asp-validation-for="NumSerieGrabador" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="bpm" class="control-label"></label>
-                <input asp-for="bpm" class="form-control" />
-                <span asp-validation-for="bpm" class="text-danger"></span>
+                <label asp-for="Amp" class="control-label"></label>
+                <input asp-for="Amp" class="form-control" />
+                <span asp-validation-for="Amp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Bpm" class="control-label"></label>
+                <input asp-for="Bpm" class="form-control" />
+                <span asp-validation-for="Bpm" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Simulador" class="control-label"></label>
@@ -52,11 +63,6 @@
                 <label asp-for="SoftAnalisis" class="control-label"></label>
                 <input asp-for="SoftAnalisis" class="form-control" />
                 <span asp-validation-for="SoftAnalisis" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Cantidad" class="control-label"></label>
-                <input asp-for="Cantidad" class="form-control" />
-                <span asp-validation-for="Cantidad" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
