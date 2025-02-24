@@ -1,0 +1,72 @@
+@model Stock.Models.Observacion
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Observacion</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.firmwareVersion)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.firmwareVersion)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.grabador)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.grabador)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.numSerieGrabador)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.numSerieGrabador)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.amp)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.amp)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.bpm)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.bpm)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Simulador)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Simulador)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NumSerieSimulador)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NumSerieSimulador)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SoftAnalisis)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SoftAnalisis)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cantidad)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cantidad)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

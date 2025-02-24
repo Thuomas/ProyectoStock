@@ -16,6 +16,7 @@ namespace Stock.Data
         public DbSet<Stock.Models.Trabajo> Trabajo { get; set; } = default!;
         public DbSet<Stock.Models.EquiposFinalizados> EquiposFinalizados { get; set; } = default!;
         public DbSet<Stock.Models.EntregasSmt> EntregasSmt { get; set; } = default!;
+        public DbSet<Stock.Models.Observacion> Observacion { get; set; } = default!;
 
         // protected override void OnModelCreating(ModelBuilder modelBuilder)
         // {
